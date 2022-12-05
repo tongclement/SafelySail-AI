@@ -3,6 +3,7 @@ Copyright (C) 2022-2022 (Clement) Tong Yuk Chun
 
 This file is part of the SafelySail-AI project.
 
-The SafelySail-AI project can not be used and/or copied and/or distributed 
+The SafelySail-AI project can not be used and/or modified and/or copied 
+and/or distributed 
 without the express permission of (Clement) Tong Yuk Chun 
 <clement.yc.tong@gmail.com>.
