@@ -1,0 +1,23 @@
+<annotation>
+    <folder>img_29er Sailing medemblik #2 </folder>
+    <filename>frame55.jpg</filename>
+    <size>
+        <width>1920</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>person</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <confidence>0.81</confidence>
+        <bndbox>
+            <xmin>1098.109375</xmin>
+            <ymin>493.539062</ymin>
+            <xmax>1724.765625</xmax>
+            <ymax>1061.015625</ymax>
+        </bndbox>
+    </object>
+</annotation>
