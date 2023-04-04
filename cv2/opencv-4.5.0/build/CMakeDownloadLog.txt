@@ -1,0 +1,2 @@
+#use_cache "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/.cache"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_ADE_HASH_3rdparty_ade_v0_1_1f_zip"

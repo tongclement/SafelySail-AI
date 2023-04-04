@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['boat', 'land', 'person', 'sea', 'sky', 'underwater']
+
+roboflow:
+  workspace: clement
+  project: safelysail-ai-v10
+  version: 3
+  license: BY-NC-SA 4.0
+  url: https://universe.roboflow.com/clement/safelysail-ai-v10/dataset/3

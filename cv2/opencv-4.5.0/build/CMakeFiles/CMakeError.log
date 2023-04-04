@@ -1,0 +1,586 @@
+Compilation failed:
+    source file: '/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_33c2b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_33c2b.dir/build.make CMakeFiles/cmTC_33c2b.dir/build
+Building CXX object CMakeFiles/cmTC_33c2b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -std=c++11 -MD -MT CMakeFiles/cmTC_33c2b.dir/src.cxx.o -MF CMakeFiles/cmTC_33c2b.dir/src.cxx.o.d -o CMakeFiles/cmTC_33c2b.dir/src.cxx.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33c2b
+/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33c2b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -Wl,--as-needed  CMakeFiles/cmTC_33c2b.dir/src.cxx.o -o cmTC_33c2b 
+ld: unknown option: --as-needed
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_33c2b] Error 1
+make: *** [cmTC_33c2b/fast] Error 2
+
+
+===== END =====
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-lka3Rw
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_49451/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_49451.dir/build.make CMakeFiles/cmTC_49451.dir/build
+Building C object CMakeFiles/cmTC_49451.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_49451.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_49451.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_49451.dir/CheckIncludeFile.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-lka3Rw/CheckIncludeFile.c
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-lka3Rw/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_49451.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_49451/fast] Error 2
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b07b9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b07b9.dir/build.make CMakeFiles/cmTC_b07b9.dir/build
+Building C object CMakeFiles/cmTC_b07b9.dir/OFF64_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_b07b9.dir/OFF64_T.c.o -MF CMakeFiles/cmTC_b07b9.dir/OFF64_T.c.o.d -o CMakeFiles/cmTC_b07b9.dir/OFF64_T.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c:30:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c:31:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c:32:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c:33:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-RXf8dd/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_b07b9.dir/OFF64_T.c.o] Error 1
+make: *** [cmTC_b07b9/fast] Error 2
+
+
+OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-OH12Fr
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_045c5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_045c5.dir/build.make CMakeFiles/cmTC_045c5.dir/build
+Building C object CMakeFiles/cmTC_045c5.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_045c5.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_045c5.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_045c5.dir/CheckIncludeFile.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-OH12Fr/CheckIncludeFile.c
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-OH12Fr/CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_045c5.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_045c5/fast] Error 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_50d04/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_50d04.dir/build.make CMakeFiles/cmTC_50d04.dir/build
+Building C object CMakeFiles/cmTC_50d04.dir/int8.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_50d04.dir/int8.c.o -MF CMakeFiles/cmTC_50d04.dir/int8.c.o.d -o CMakeFiles/cmTC_50d04.dir/int8.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c:29:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c:30:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c:31:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c:32:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c:33:12: error: use of undeclared identifier 'INT8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-Fbp7s1/int8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_50d04.dir/int8.c.o] Error 1
+make: *** [cmTC_50d04/fast] Error 2
+
+
+int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d8d73/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d8d73.dir/build.make CMakeFiles/cmTC_d8d73.dir/build
+Building C object CMakeFiles/cmTC_d8d73.dir/int16.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_d8d73.dir/int16.c.o -MF CMakeFiles/cmTC_d8d73.dir/int16.c.o.d -o CMakeFiles/cmTC_d8d73.dir/int16.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c:29:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c:30:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c:31:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c:32:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c:33:12: error: use of undeclared identifier 'INT16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6AOXhF/int16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_d8d73.dir/int16.c.o] Error 1
+make: *** [cmTC_d8d73/fast] Error 2
+
+
+int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_16b4f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_16b4f.dir/build.make CMakeFiles/cmTC_16b4f.dir/build
+Building C object CMakeFiles/cmTC_16b4f.dir/int32.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_16b4f.dir/int32.c.o -MF CMakeFiles/cmTC_16b4f.dir/int32.c.o.d -o CMakeFiles/cmTC_16b4f.dir/int32.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c:29:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c:30:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c:31:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c:32:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c:33:12: error: use of undeclared identifier 'INT32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1695bS/int32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_16b4f.dir/int32.c.o] Error 1
+make: *** [cmTC_16b4f/fast] Error 2
+
+
+int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f4888/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f4888.dir/build.make CMakeFiles/cmTC_f4888.dir/build
+Building C object CMakeFiles/cmTC_f4888.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE    -Wno-maybe-uninitialized -MD -MT CMakeFiles/cmTC_f4888.dir/src.c.o -MF CMakeFiles/cmTC_f4888.dir/src.c.o.d -o CMakeFiles/cmTC_f4888.dir/src.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_f4888
+/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4888.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_f4888.dir/src.c.o -o cmTC_f4888 
+
+
+===== END =====
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Apple clang version 14.0.0 (clang-1400.0.29.102)
+Target: arm64-apple-darwin22.3.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-l5fGBN
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ef372/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ef372.dir/build.make CMakeFiles/cmTC_ef372.dir/build
+Building C object CMakeFiles/cmTC_ef372.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_ef372.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ef372.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ef372.dir/CheckFunctionExists.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-l5fGBN/CheckFunctionExists.c
+Linking C executable cmTC_ef372
+/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef372.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_ef372.dir/CheckFunctionExists.c.o -o cmTC_ef372 
+Undefined symbols for architecture arm64:
+  "_sgemm_", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_ef372] Error 1
+make: *** [cmTC_ef372/fast] Error 2
+
+
+
+Determining if the CL_VERSION_3_0 exist failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-e09Ljb
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f457c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f457c.dir/build.make CMakeFiles/cmTC_f457c.dir/build
+Building C object CMakeFiles/cmTC_f457c.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -fsigned-char -W -Wall    -Wformat -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_f457c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f457c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f457c.dir/CheckSymbolExists.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-e09Ljb/CheckSymbolExists.c
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-e09Ljb/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_3_0'
+  return ((int*)(&CL_VERSION_3_0))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f457c.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_f457c/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_3_0
+  return ((int*)(&CL_VERSION_3_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-LQvnwy
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_37a4c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_37a4c.dir/build.make CMakeFiles/cmTC_37a4c.dir/build
+Building C object CMakeFiles/cmTC_37a4c.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -fsigned-char -W -Wall    -Wformat -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_37a4c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_37a4c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_37a4c.dir/CheckSymbolExists.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-LQvnwy/CheckSymbolExists.c
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-LQvnwy/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_2'
+  return ((int*)(&CL_VERSION_2_2))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_37a4c.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_37a4c/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-04UTob
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f812d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f812d.dir/build.make CMakeFiles/cmTC_f812d.dir/build
+Building C object CMakeFiles/cmTC_f812d.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -fsigned-char -W -Wall    -Wformat -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_f812d.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f812d.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f812d.dir/CheckSymbolExists.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-04UTob/CheckSymbolExists.c
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-04UTob/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_1'
+  return ((int*)(&CL_VERSION_2_1))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f812d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_f812d/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-PBC239
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f91b3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f91b3.dir/build.make CMakeFiles/cmTC_f91b3.dir/build
+Building C object CMakeFiles/cmTC_f91b3.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -fsigned-char -W -Wall    -Wformat -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE -MD -MT CMakeFiles/cmTC_f91b3.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f91b3.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f91b3.dir/CheckSymbolExists.c.o -c /Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-PBC239/CheckSymbolExists.c
+/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-PBC239/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CL_VERSION_2_0'
+  return ((int*)(&CL_VERSION_2_0))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f91b3.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_f91b3/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenCL.framework/Headers/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

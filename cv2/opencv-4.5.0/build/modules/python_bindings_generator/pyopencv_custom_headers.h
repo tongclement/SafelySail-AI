@@ -1,0 +1,12 @@
+//user-defined headers
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/core/misc/python/pyopencv_async.hpp"
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/core/misc/python/pyopencv_cuda.hpp"
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/core/misc/python/pyopencv_umat.hpp"
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/ml/misc/python/pyopencv_ml.hpp"
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/videoio/misc/python/pyopencv_videoio.hpp"
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/objdetect/misc/python/pyopencv_objdetect.hpp"
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/stitching/misc/python/pyopencv_stitching.hpp"
+#include "/Users/clementtongpersonal/Desktop/Programming/2022/SafelySail-AI/cv2/opencv-4.5.0/modules/gapi/misc/python/pyopencv_gapi.hpp"
